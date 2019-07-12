@@ -33,7 +33,7 @@ function html(){
 }
 
 gulp.task('styles', styles);
-gulp.task('watch', watch);
+gulp.task('default', watch);
 gulp.task('html', html);
 
 

@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.content {
+  height: 100vh;
+}
+.container {
+  max-width: 1230px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.header__top {
+  padding: 20px 0 22px 0;
+}
+.header__top__logo img {
+  width: 200px;
+  margin: 9px 0 0 15px;
+}
+.header__top__desc {
+  padding-top: 6px;
+}
+.header__top__desc p {
+  margin: 0 0 0 64px;
+  color: #181818;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+}
+.header__top__working-hours__price__wrap .working-hours {
+  text-align: center;
+  line-height: 1.4;
+  margin: 0px 0 0 31px;
+  padding: 4px 0 0 0px;
+}
+.header__top__working-hours__price__wrap .working-hours p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.header__top__working-hours__price__wrap .price {
+  margin: 5px 28px 0 0;
+}
+.header__top__cart a {
+  background: #ffff00;
+  display: block;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 22px 15px 16px 15px;
+  color: #000e14;
+  font-weight: bold;
+}
+.header__top__cart a i {
+  font-size: 21px;
+  margin-right: 21px;
+}
+.header__top__contact {
+  padding-top: 13px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #181818;
+  letter-spacing: 0.48px;
+}
+.header__top__contact__tel p i {
+  margin-right: 6px;
+}
+.header__top__contact__email i {
+  margin-right: 8px;
+  letter-spacing: 0.38px;
+}
+.nav {
+  background-color: #181818;
+  padding: 17px 0;
+}
+.nav ul {
+  display: flex;
+  margin-bottom: 0;
+}
+.nav ul li {
+  border-right: 1px solid #ffe600;
+  width: 150px;
+}
+.nav ul li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.nav ul li:first-child {
+  padding-left: 0;
+}
+.nav ul li a {
+  color: #ffe600;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+}
+.title {
+  margin: 65px 0 0 0;
+}
+.title img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.title h2 {
+  margin: 5px 0 0 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer {
+  background-color: #d6effb;
+}

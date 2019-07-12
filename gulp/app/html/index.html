@@ -2,12 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Title</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<div class="wrapper">
     @@include('blocks/header.html')
+    <div class="content">
 
+        <div class="container">
+            @@include('pages/main.html')
+        </div>
+
+    </div>
+
+
+
+    @@include('blocks/footer.html')
+
+</div>
+
+
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

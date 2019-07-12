@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.content {
+  height: 100vh;
+}
+.container {
+  max-width: 1230px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
